@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+}
+
+.navbar-mobile-screen.show {
+    height: 100vh;
+    width: 100vw;
+}
+
+div#itens-navbar-desktop {
+    display: none;
+}
+
+main {
+    position: relative;
+    top: 86px;
+}
+
+#carousel-img {
+    height: 400px;
+    width: auto;
+}
+
+.shadow-text {
+    text-shadow: 5px 5px 45px #ffffff;
+}
+
+@media (min-width: 720px) {
+    #carousel-img {
+        height: 90vh;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #navbar-button {
+        display: none;
+    }
+
+    div#itens-navbar-desktop {
+        display: inline;
+    }
+
+}
