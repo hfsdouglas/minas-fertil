@@ -1,10 +1,20 @@
+@font-face{
+    font-family: Poppins-Regular;
+    src: url('../assets/font/Poppins-Regular.ttf');        
+}
+
 body {
     height: 100vh;
+    font-family: Poppins-Regular;
 }
 
 .navbar-mobile-screen.show {
     height: 100vh;
     width: 100vw;
+}
+
+.navbar.fixed-top {
+    box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, .5);
 }
 
 div#itens-navbar-desktop {
@@ -14,6 +24,13 @@ div#itens-navbar-desktop {
 main {
     position: relative;
     top: 86px;
+    background-image: url('');
+}
+
+section#inicio, 
+section#sobre-nos,
+section#contato {
+    height: calc(100vh - 86px);
 }
 
 #carousel-img {
@@ -23,6 +40,46 @@ main {
 
 .shadow-text {
     text-shadow: 5px 5px 45px #ffffff;
+}
+
+.full-banner {
+    background-image: url(./../assets/img/plant.jpg);
+    height: calc(100vh - 86px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+#banner-title {
+    width: 70%;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 50px #198754;
+}
+
+.banner-actions {
+    background-image: linear-gradient(to top, rgba(255, 255, 255), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8), transparent);
+    width: 100%;
+    padding-top: 60px!important;
+    padding-bottom: 40px!important;
+}
+
+img.w-zap-icon {
+    height: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+}
+
+.hands-soil{
+    background-image: url('../assets/img/hands-soil.jpg');
+    height: calc(100vh - 86px - 60px - 200px);
+    width: 80vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, .5);
 }
 
 @media (min-width: 720px) {
@@ -41,4 +98,25 @@ main {
         display: inline;
     }
 
+    .full-banner {
+        background-position: 150px 0;
+    }
+
+    .banner-actions {
+        background-image: linear-gradient(to right, rgba(255, 255, 255), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8), transparent);
+        width: 50%;
+        height: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .banner-actions > a{
+        width: 220px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .full-banner {
+        background-position: 150px -100px;
+    } 
 }
