@@ -3,6 +3,16 @@
     src: url('../assets/font/Poppins-Regular.ttf');        
 }
 
+@font-face{
+    font-family: Poppins-Thin;
+    src: url('../assets/font/Poppins-Light.ttf');        
+}
+
+@font-face{
+    font-family: Poppins-Bold;
+    src: url('../assets/font/Poppins-Bold.ttf');        
+}
+
 body {
     height: 100vh;
     font-family: Poppins-Regular;
@@ -24,12 +34,11 @@ div#itens-navbar-desktop {
 main {
     position: relative;
     top: 86px;
-    background-image: url('');
+    margin-bottom: 115px; 
 }
 
 section#inicio, 
-section#sobre-nos,
-section#contato {
+section#sobre-nos {
     height: calc(100vh - 86px);
 }
 
@@ -61,7 +70,7 @@ section#contato {
     background-image: linear-gradient(to top, rgba(255, 255, 255), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8), transparent);
     width: 100%;
     padding-top: 60px!important;
-    padding-bottom: 50px!important;
+    padding-bottom: 45px!important;
 }
 
 .w-zap-icon {
@@ -80,6 +89,36 @@ section#contato {
     background-size: cover;
     border-radius: 5px;
     box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, .5);
+}
+
+#contact-subtitle {
+    font-family: Poppins-Bold;
+}
+
+.lead {
+    font-family: Poppins-Thin;
+}
+
+.title {
+  font-family: Poppins-Bold;  
+}
+
+iframe {
+    height: 300px;
+}
+
+footer {
+    background-color: #ffffff;
+}
+
+#footer-logo {
+    height: auto;
+    width: 400px;
+}
+
+#footer-text {
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 
 @media (min-width: 720px) {
