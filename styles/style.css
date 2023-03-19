@@ -43,7 +43,7 @@ section#contato {
 }
 
 .full-banner {
-    background-image: url(./../assets/img/plant.jpg);
+    background-image: url('../assets/img/plant.jpg');
     height: calc(100vh - 86px);
     background-repeat: no-repeat;
     background-position: center;
@@ -61,10 +61,10 @@ section#contato {
     background-image: linear-gradient(to top, rgba(255, 255, 255), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8), transparent);
     width: 100%;
     padding-top: 60px!important;
-    padding-bottom: 40px!important;
+    padding-bottom: 50px!important;
 }
 
-img.w-zap-icon {
+.w-zap-icon {
     height: 50px;
     position: fixed;
     bottom: 25px;
