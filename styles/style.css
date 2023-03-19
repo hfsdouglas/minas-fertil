@@ -113,7 +113,7 @@ footer {
 
 #footer-logo {
     height: auto;
-    width: 400px;
+    width: 80%;
 }
 
 #footer-text {
@@ -125,6 +125,11 @@ footer {
     #carousel-img {
         height: 90vh;
         width: 100%;
+    }
+
+    #footer-logo {
+        height: auto;
+        width: 50%;
     }
 }
 
@@ -149,8 +154,14 @@ footer {
         flex-direction: column;
         justify-content: end;
     }
+
     .banner-actions > a{
         width: 220px;
+    }
+
+    #footer-logo {
+        height: auto;
+        width: 35%;
     }
 }
 
