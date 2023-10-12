@@ -86,7 +86,7 @@ section#inicio {
 
 .hands-soil{
     background-image: url('../assets/img/hands-soil.jpg');
-    height: 700px;
+    height: 400px;
     width: 80vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,6 +154,9 @@ footer {
         flex-direction: column;
         justify-content: end;
     }
+
+    .hands-soil{
+        height: 500px;
 
     .banner-actions > a{
         width: 220px;
