@@ -62,7 +62,8 @@ section#inicio {
 #banner-title {
     width: 70%;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 50px #198754;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 50px #FFFFFF;
 }
 
 #btn-chamada {
@@ -71,7 +72,7 @@ section#inicio {
 }
 
 .banner-actions {
-    background-image: linear-gradient(to top, rgba(255, 255, 255), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8), transparent);
+    background-image: linear-gradient(to top, rgba(124, 203, 123), rgba(124, 203, 123, 1), rgba(124, 203, 123, 0.8), transparent);
     width: 100%;
     padding-top: 60px!important;
     padding-bottom: 45px!important;
@@ -147,7 +148,7 @@ footer {
     }
 
     .banner-actions {
-        background-image: linear-gradient(to right, rgba(255, 255, 255), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8), transparent);
+        background-image: linear-gradient(to right, rgba(124, 203, 123), rgba(124, 203, 123, 1), rgba(124, 203, 123, 0.8), transparent);
         width: 50%;
         height: 100%;
         display: inline-flex;
