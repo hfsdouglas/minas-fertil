@@ -37,8 +37,7 @@ main {
     margin-bottom: 115px; 
 }
 
-section#inicio, 
-section#sobre-nos {
+section#inicio {
     height: calc(100vh - 86px);
 }
 
@@ -66,6 +65,11 @@ section#sobre-nos {
     text-shadow: 2px 2px 50px #198754;
 }
 
+#btn-chamada {
+    background-color: #F9A744;
+    border-color: #F9A744;
+}
+
 .banner-actions {
     background-image: linear-gradient(to top, rgba(255, 255, 255), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8), transparent);
     width: 100%;
@@ -82,7 +86,7 @@ section#sobre-nos {
 
 .hands-soil{
     background-image: url('../assets/img/hands-soil.jpg');
-    height: calc(100vh - 86px - 60px - 200px);
+    height: 700px;
     width: 80vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -101,10 +105,6 @@ section#sobre-nos {
 
 .title {
   font-family: Poppins-Bold;  
-}
-
-iframe {
-    height: 300px;
 }
 
 footer {
